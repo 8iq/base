@@ -109,7 +109,7 @@ RUN set -ex \
 # http://pillow.readthedocs.io/en/3.1.x/installation.html#building-on-linux
 # libcairo2-dev -- for pdf maker
 RUN apt-get update && apt-get install -y \
-        gcc gettext \
+        zip gcc gettext \
         mysql-client libmysqlclient-dev \
         postgresql-client libpq-dev sqlite3 \
         libtiff5-dev libjpeg62-turbo-dev zlib1g-dev libfreetype6-dev \
